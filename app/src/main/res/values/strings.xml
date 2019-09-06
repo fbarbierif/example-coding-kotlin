@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Example Coding Kotlin</string>
+    <string name="recipes_list_activity_title">Recipes</string>
+    <string name="favorites_activity_title">Favorites</string>
+    <string name="search">Search...</string>
+    <string name="error">Oops! There was an error, please try again.</string>
+    <string name="empty">No results.</string>
 </resources>
