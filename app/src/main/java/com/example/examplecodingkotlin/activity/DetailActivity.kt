@@ -23,7 +23,10 @@ class DetailActivity : AppCompatActivity() {
         setContentView(R.layout.activity_recipe_detail)
 
         val title = intent.getStringExtra(TITLE)
-        setupActionBar(title)
+
+        title?.let {
+            setupActionBar(it)
+        }
 
         val url = intent.getStringExtra(URL)
 
